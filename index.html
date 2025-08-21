@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 0, 0, 2</p>
+    </div>
+
+    <h1>Селектор за тегом h1, вага 0, 0, 1</h1>
+
+    <p class="clstxt">Селектор за класом, вага 0, 1, 0</p>
+
+    <p id="idtxt">Селектор за id, вага 1, 0, 0 </p>
+
+    <input type="text" placeholder="Селектор за атрибутом [placeholder], вага 0, 1, 1">
+
+    <div class="wrap">
+        <p>Вкладений селектор, вага 0, 1, 1</p>
+    </div>
+
+    <ul>
+        <li>Дочірній селектор li, вага 0, 0, 2</li>
+    </ul>
+
+    <div class="seven">
+        <p>Послідовність селекторів, вага 0, 1, 1</p>
+    </div>
+
+    <div class="clstxt">Тег + class, вага 0, 1, 1</div>
+
+    <p id="idclass" class="idclass">id + class, вага 1, 1, 0</p>
+
+    <div class="wrapper">
+        <input type="text" placeholder="Атрибут + вкладеність, вага 0, 2, 1">
+    </div>
+
+</body>
+
+</html>

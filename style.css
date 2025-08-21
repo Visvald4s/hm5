@@ -1,0 +1,47 @@
+div>p {
+    background-color: yellow;
+    display: inline;
+}
+
+h1 {
+    color: red;
+}
+
+.clstxt {
+    color: green;
+}
+
+#idtxt {
+    color: blue;
+}
+
+input[placeholder] {
+    color: purple;
+    width: 320px;
+    border: 5px solid rgb(205, 122, 205);
+}
+
+.wrap p {
+    color: darkturquoise;
+}
+
+ul>li {
+    color: darkcyan;
+}
+
+.seven p {
+    color: darkred;
+}
+
+div.clstxt {
+    color: coral;
+}
+
+#idclass.idclass {
+    color: rgb(84, 119, 27);
+}
+
+.wrapper input[placeholder] {
+    background-color: lightblue;
+    border: 3px solid blue;
+}
