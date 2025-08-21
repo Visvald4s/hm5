@@ -34,14 +34,19 @@ ul>li {
 }
 
 div.clstxt {
-    color: coral;
+    color: cyan;
 }
 
 #idclass.idclass {
-    color: rgb(84, 119, 27);
+    color: rgb(102, 118, 78);
 }
 
 .wrapper input[placeholder] {
-    background-color: lightblue;
-    border: 3px solid blue;
+    background-color: darkblue;
+    border: 3px solid lightblue;
+}
+
+.par {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
 }
